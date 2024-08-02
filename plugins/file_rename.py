@@ -1,8 +1,4 @@
-To modify your Telegram bot code by removing the phrase "ɪʟʟᴇɢᴀʟ ᴅᴇᴠᴇʟᴏᴘᴇʀꜱ Tʀyɪɴɢ Tᴏ Dᴏᴡɴʟᴏᴀᴅɪɴɢ" and replacing it with "anime beast tamil trying to downloading," you will need to make changes in a few places within the code\. 
 
-Here’s the updated version of your code with the requested changes:
-
-```python
 @Client.on_callback_query(filters.regex("upload"))
 async def doc(bot, update):
     new_name = update.message.text
