@@ -113,6 +113,7 @@ async def doc(bot, update):
          img = Image.open(ph_path)
          img.resize((320, 320))
          img.save(ph_path, "JPEG")
+	    
 	    # Apply watermark
         watermark_text = "Anime Beast Tamil"  # Your watermark text
         watermark_path = "downloads/watermarked_" + new_filename
