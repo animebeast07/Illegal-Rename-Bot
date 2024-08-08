@@ -162,4 +162,4 @@ async def doc(bot, update):
                 thumb=ph_path,
                 duration=duration,
                 progress=progress_for_pyrogram,
-                progress_args=("Uᴩʟᴏᴀᴅ S
+                progress_args=("Uᴩʟᴏᴀ
