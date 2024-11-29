@@ -26,13 +26,13 @@ id_pattern = re.compile(r'^.\d+$')
 
 class Config(object):
     # pyro client config
-    API_ID    = os.environ.get("API_ID", "21740783")
-    API_HASH  = os.environ.get("API_HASH", "a5dc7fec8302615f5b441ec5e238cd46")
+    API_ID    = os.environ.get("API_ID", "26169469")
+    API_HASH  = os.environ.get("API_HASH", "1e2225f3d65b401d7d5bb921af531712")
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
    
     # database config
-    DB_NAME = os.environ.get("DB_NAME","Speedwolf1")    
-    DB_URL  = os.environ.get("DB_URL","mongodb+srv://Speedwolf1:speedwolf24689@cluster0.rgfywsf.mongodb.net/")
+    DB_NAME = os.environ.get("DB_NAME","Animebeasttamil")    
+    DB_URL  = os.environ.get("DB_URL","mongodb+srv://Animebeasttamil:animebeast6374@cluster0.qzrwt.mongodb.net/")
  
     # other configs
     BOT_UPTIME  = time.time()
