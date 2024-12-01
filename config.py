@@ -33,7 +33,7 @@ class Config(object):
     # database config
     DB_NAME = os.environ.get("DB_NAME","Animebeasttamil")    
     DB_URL  = os.environ.get("DB_URL","mongodb+srv://Animebeasttamil:animebeast6374@cluster0.qzrwt.mongodb.net/")
-    CHANNEL_ID = int(os.environ.get("DB_CHANNEL_ID", ""))
+    
     # other configs
     BOT_UPTIME  = time.time()
     START_PIC   = os.environ.get("START_PIC", "https://telegra.ph/file/feb6dd0a1cb8576943c0f.jpg")
